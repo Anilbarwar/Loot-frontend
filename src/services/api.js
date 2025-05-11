@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 // const API_ROOM_BASE = 'http://192.168.1.6:9001/room';
-const API_ROOM_BASE = 'https://loot-production.up.railway.app/room';
-const API_GAME_BASE = 'https://loot-production.up.railway.app/game';
+const API_ROOM_BASE = 'https://loot-5z83.onrender.com/room';
+const API_GAME_BASE = 'https://loot-5z83.onrender.com/game';
 // const API_GAME_BASE = 'http://192.168.1.6:9001/game';
 
 export const createRoom = () => axios.post(`${API_ROOM_BASE}/getRoom`);
