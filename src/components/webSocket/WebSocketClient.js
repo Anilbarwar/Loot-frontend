@@ -7,7 +7,7 @@ const subscriptions = {};
 export const connectWebSocket = (roomCode) => {
     if (stompClient && stompClient.connected) return;
 
-    const socket = new SockJS('https://loot-production.up.railway.app/ws');
+    const socket = new SockJS('https://loot-5z83.onrender.com/ws');
 
     stompClient = new Client({
         webSocketFactory: () => socket,
